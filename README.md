@@ -4,4 +4,4 @@ At the moment it only includes one item "Dreugh Wax".
 
 # Future Milestones:
 Including every single item
-Integrate TamrielBot with Tkinter module.
+<p>Integrate TamrielBot with Tkinter module.
