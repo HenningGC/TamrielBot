@@ -12,7 +12,7 @@ from scipy import stats
 with open('result.csv', 'w') as f:
     f.write('prices \n')
 
-driver = webdriver.Chrome(r'C:\Users\<user>\Downloads\<file>\chromedriver')
+driver = webdriver.Chrome()
 driver.get('https://eu.tamrieltradecentre.com/pc/Trade/SearchResult?ItemID=211&SortBy=LastSeen&Order=desc')
 
 prices = []
@@ -56,6 +56,4 @@ def Datacleansing():
 
 Datacleansing()
 
-
-
-
+input('Press Enter to exit')
