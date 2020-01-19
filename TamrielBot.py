@@ -51,9 +51,9 @@ def Datacleansing():
     print(cleanedprice)
     print(stats.describe(cleanedprice))
     print(np.std(cleanedprice))
+    
+    input('Press Enter to exit')
 
 
 
 Datacleansing()
-
-input('Press Enter to exit')
